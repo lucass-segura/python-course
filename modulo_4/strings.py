@@ -11,5 +11,5 @@ print("!" in message)
 print(message.index("!"))
 
 # Tambien se puede usar el slice
-message2 = message[::1]
+message2 = message[::-1]
 print(message2)

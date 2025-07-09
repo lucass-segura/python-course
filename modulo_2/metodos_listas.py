@@ -30,9 +30,9 @@ names.pop(1)
 print(names)
 
 #sumamos todos los numeros
-print(sum(numbers))
+# print(sum(numbers))
 
-# Remover ultimo elemento y almacenarlo en una variable
-ultimo_elemento = names.pop()
+# Remover elemento y almacenarlo en una variable
+ultimo_elemento = names.pop(2)
 print(ultimo_elemento)
 print(names)
